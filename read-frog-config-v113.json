@@ -1,0 +1,470 @@
+{
+  "config": {
+    "language": {
+      "sourceCode": "auto",
+      "targetCode": "cmn",
+      "level": "intermediate"
+    },
+    "providersConfig": [
+      {
+        "id": "jalapenocloud-default",
+        "name": "Jalapeno Cloud",
+        "description": "Enterprise-grade AI used by top teams — now made for you!",
+        "enabled": false,
+        "baseURL": "https://api.jalapeno-cloud.ai/v1",
+        "providerOptions": {
+          "chat_template_kwargs": {
+            "thinking": false
+          }
+        },
+        "provider": "jalapenocloud",
+        "model": {
+          "model": "DeepSeek-V4-Flash",
+          "isCustomModel": false,
+          "customModel": null
+        }
+      },
+      {
+        "id": "microsoft-translate-default",
+        "name": "Microsoft Translator",
+        "enabled": true,
+        "provider": "microsoft-translate"
+      },
+      {
+        "id": "google-translate-default",
+        "name": "Google Translate",
+        "enabled": true,
+        "provider": "google-translate"
+      },
+      {
+        "id": "openai-default",
+        "name": "OpenAI",
+        "description": "提供 GPT-4o 等模型",
+        "enabled": false,
+        "provider": "openai",
+        "model": {
+          "model": "gpt-5.4-mini",
+          "isCustomModel": false,
+          "customModel": null
+        },
+        "reasoning": "none"
+      },
+      {
+        "id": "deepseek-default",
+        "name": "DeepSeek",
+        "description": "推荐在中国使用",
+        "enabled": false,
+        "provider": "deepseek",
+        "model": {
+          "model": "deepseek-v4-flash",
+          "isCustomModel": false,
+          "customModel": null
+        },
+        "reasoning": "none"
+      },
+      {
+        "id": "atlascloud-default",
+        "name": "Atlas Cloud",
+        "description": "统一的 OpenAI 兼容模型平台，提供 DeepSeek、Kimi、Qwen、豆包、GLM 等较新模型",
+        "enabled": false,
+        "baseURL": "https://api.atlascloud.ai/v1",
+        "provider": "atlascloud",
+        "model": {
+          "model": "deepseek-ai/deepseek-v4-flash",
+          "isCustomModel": false,
+          "customModel": null
+        }
+      }
+    ],
+    "pageTranslation": {
+      "providerId": "microsoft-translate-default",
+      "mode": "bilingual",
+      "modeShortcut": "",
+      "node": {
+        "enabled": false,
+        "hotkey": "control",
+        "shortcut": "Alt+Q",
+        "forceRetranslation": false
+      },
+      "page": {
+        "range": "all",
+        "translateTitle": true,
+        "autoTranslatePatterns": [
+          "*.news.ycombinator.com"
+        ],
+        "neverAutoTranslatePatterns": [],
+        "autoTranslateLanguages": [],
+        "shortcut": "",
+        "preload": {
+          "margin": 1000,
+          "threshold": 0
+        },
+        "minCharactersPerNode": 0,
+        "minWordsPerNode": 0,
+        "enableTargetLanguageSkip": true,
+        "skipLanguages": []
+      },
+      "enableAIContentAware": false,
+      "customPromptsConfig": {
+        "promptId": "default",
+        "patterns": []
+      },
+      "requestQueueConfig": {
+        "capacity": 20,
+        "rate": 8
+      },
+      "batchQueueConfig": {
+        "maxCharactersPerBatch": 1000,
+        "maxItemsPerBatch": 4
+      },
+      "translationNodeStyle": {
+        "preset": "textColor",
+        "isCustom": false,
+        "customCSS": null
+      }
+    },
+    "languageDetection": {
+      "mode": "basic",
+      "providerId": "jalapenocloud-default"
+    },
+    "tts": {
+      "defaultVoice": "en-US-AndrewMultilingualNeural",
+      "languageVoices": {
+        "eng": "en-US-AndrewMultilingualNeural",
+        "cmn": "zh-CN-XiaoxiaoMultilingualNeural",
+        "cmn-Hant": "zh-TW-YunJheNeural",
+        "yue": "yue-CN-XiaoMinNeural",
+        "spa": "es-ES-TristanMultilingualNeural",
+        "rus": "ru-RU-DmitryNeural",
+        "arb": "ar-SA-HamedNeural",
+        "ben": "bn-BD-NabanitaNeural",
+        "hin": "hi-IN-MadhurNeural",
+        "por": "pt-BR-MacerioMultilingualNeural",
+        "ind": "id-ID-ArdiNeural",
+        "jpn": "ja-JP-MasaruMultilingualNeural",
+        "fra": "fr-FR-RemyMultilingualNeural",
+        "deu": "de-DE-FlorianMultilingualNeural",
+        "jav": "jv-ID-DimasNeural",
+        "kor": "ko-KR-HyunsuMultilingualNeural",
+        "tel": "te-IN-MohanNeural",
+        "vie": "vi-VN-NamMinhNeural",
+        "mar": "mr-IN-ManoharNeural",
+        "ita": "it-IT-AlessioMultilingualNeural",
+        "tam": "ta-IN-ValluvarNeural",
+        "tur": "tr-TR-AhmetNeural",
+        "urd": "ur-PK-AsadNeural",
+        "guj": "gu-IN-NiranjanNeural",
+        "pol": "pl-PL-MarekNeural",
+        "ukr": "uk-UA-OstapNeural",
+        "kan": "kn-IN-GaganNeural",
+        "mai": "en-US-AndrewMultilingualNeural",
+        "mal": "ml-IN-MidhunNeural",
+        "pes": "fa-IR-FaridNeural",
+        "mya": "my-MM-ThihaNeural",
+        "swh": "sw-KE-RafikiNeural",
+        "sun": "su-ID-JajangNeural",
+        "ron": "ro-RO-EmilNeural",
+        "pan": "pa-IN-OjasNeural",
+        "bho": "en-US-AndrewMultilingualNeural",
+        "amh": "am-ET-AmehaNeural",
+        "hau": "ha-NG-AbubakarNeural",
+        "fuv": "ff-Latn-SN-SambaNeural",
+        "bos": "bs-BA-GoranNeural",
+        "hrv": "hr-HR-SreckoNeural",
+        "nld": "nl-NL-MaartenNeural",
+        "srp": "sr-RS-NicholasNeural",
+        "tha": "th-TH-NiwatNeural",
+        "ckb": "en-US-AndrewMultilingualNeural",
+        "yor": "yo-NG-AbeoNeural",
+        "uzn": "uz-UZ-SardorNeural",
+        "zlm": "ms-MY-OsmanNeural",
+        "ibo": "ig-NG-EzinneNeural",
+        "npi": "ne-NP-SagarNeural",
+        "ceb": "en-US-AndrewMultilingualNeural",
+        "skr": "en-US-AndrewMultilingualNeural",
+        "tgl": "fil-PH-AngeloNeural",
+        "hun": "hu-HU-TamasNeural",
+        "azj": "az-AZ-BabekNeural",
+        "sin": "si-LK-SameeraNeural",
+        "koi": "en-US-AndrewMultilingualNeural",
+        "ell": "el-GR-NestorasNeural",
+        "ces": "cs-CZ-AntoninNeural",
+        "mag": "en-US-AndrewMultilingualNeural",
+        "run": "en-US-AndrewMultilingualNeural",
+        "bel": "be-BY-YauheniNeural",
+        "plt": "en-US-AndrewMultilingualNeural",
+        "qug": "en-US-AndrewMultilingualNeural",
+        "mad": "en-US-AndrewMultilingualNeural",
+        "nya": "en-US-AndrewMultilingualNeural",
+        "zyb": "en-US-AndrewMultilingualNeural",
+        "pbu": "en-US-AndrewMultilingualNeural",
+        "kin": "rw-RW-JeanNeural",
+        "zul": "zu-ZA-ThembaNeural",
+        "bul": "bg-BG-BorislavNeural",
+        "swe": "sv-SE-MattiasNeural",
+        "lin": "ln-CD-BaudouinNeural",
+        "som": "so-SO-MuuseNeural",
+        "hms": "en-US-AndrewMultilingualNeural",
+        "hnj": "en-US-AndrewMultilingualNeural",
+        "ilo": "en-US-AndrewMultilingualNeural",
+        "kaz": "kk-KZ-DauletNeural",
+        "heb": "he-IL-AvriNeural",
+        "nob": "nb-NO-FinnNeural",
+        "nno": "nn-NO-FinnNeural",
+        "afr": "af-ZA-AdriNeural",
+        "sqi": "sq-AL-IlirNeural",
+        "asm": "as-IN-BiswajitNeural",
+        "eus": "eu-ES-AnderNeural",
+        "bre": "fr-FR-RemyMultilingualNeural",
+        "cat": "ca-ES-EnricNeural",
+        "cos": "fr-FR-RemyMultilingualNeural",
+        "cym": "cy-GB-AledNeural",
+        "dan": "da-DK-JeppeNeural",
+        "div": "si-LK-SameeraNeural",
+        "epo": "en-US-AndrewMultilingualNeural",
+        "ekk": "et-EE-KertNeural",
+        "fao": "fo-FO-PoulNeural",
+        "fij": "en-US-AndrewMultilingualNeural",
+        "fin": "fi-FI-HarriNeural",
+        "fry": "nl-NL-MaartenNeural",
+        "gla": "en-GB-OllieMultilingualNeural",
+        "gle": "ga-IE-ColmNeural",
+        "glg": "gl-ES-RoiNeural",
+        "grn": "es-ES-TristanMultilingualNeural",
+        "hat": "fr-FR-RemyMultilingualNeural",
+        "haw": "en-US-AndrewMultilingualNeural",
+        "hye": "hy-AM-HaykNeural",
+        "ido": "en-US-AndrewMultilingualNeural",
+        "ina": "en-US-AndrewMultilingualNeural",
+        "isl": "is-IS-GunnarNeural",
+        "kat": "ka-GE-GiorgiNeural",
+        "khm": "km-KH-PisethNeural",
+        "kir": "kk-KZ-DauletNeural",
+        "lao": "lo-LA-ChanthavongNeural",
+        "lat": "it-IT-AlessioMultilingualNeural",
+        "lvs": "lv-LV-NilsNeural",
+        "lit": "lt-LT-LeonasNeural",
+        "ltz": "fr-FR-RemyMultilingualNeural",
+        "mkd": "mk-MK-AleksandarNeural",
+        "mlt": "mt-MT-JosephNeural",
+        "mon": "mn-MN-BataaNeural",
+        "mri": "en-NZ-MitchellNeural",
+        "nso": "en-US-AndrewMultilingualNeural",
+        "oci": "fr-FR-RemyMultilingualNeural",
+        "ori": "or-IN-DineshNeural",
+        "orm": "en-US-AndrewMultilingualNeural",
+        "prs": "en-US-AndrewMultilingualNeural",
+        "san": "hi-IN-MadhurNeural",
+        "slk": "sk-SK-LukasNeural",
+        "slv": "sl-SI-RokNeural",
+        "smo": "en-US-AndrewMultilingualNeural",
+        "sna": "en-US-AndrewMultilingualNeural",
+        "snd": "sd-PK-SalmanNeural",
+        "sot": "en-US-AndrewMultilingualNeural",
+        "tah": "fr-FR-RemyMultilingualNeural",
+        "tat": "tt-RU-AidarNeural",
+        "tgk": "tg-TJ-SharifNeural",
+        "tir": "am-ET-AmehaNeural",
+        "ton": "en-US-AndrewMultilingualNeural",
+        "tsn": "en-US-AndrewMultilingualNeural",
+        "tuk": "tk-TM-AmanNeural",
+        "uig": "ug-CN-KashgarNeural",
+        "vol": "en-US-AndrewMultilingualNeural",
+        "wol": "en-US-AndrewMultilingualNeural",
+        "xho": "xh-ZA-ThembaNeural",
+        "ydd": "he-IL-AvriNeural",
+        "aka": "en-US-AndrewMultilingualNeural",
+        "bam": "fr-FR-RemyMultilingualNeural",
+        "bis": "en-US-AndrewMultilingualNeural",
+        "bod": "zh-CN-XiaoxiaoMultilingualNeural",
+        "che": "ru-RU-DmitryNeural",
+        "chv": "ru-RU-DmitryNeural",
+        "dzo": "zh-CN-XiaoxiaoMultilingualNeural",
+        "ewe": "en-US-AndrewMultilingualNeural",
+        "kab": "en-US-AndrewMultilingualNeural",
+        "lug": "en-US-AndrewMultilingualNeural",
+        "oss": "ru-RU-DmitryNeural",
+        "ssw": "en-US-AndrewMultilingualNeural",
+        "ven": "en-US-AndrewMultilingualNeural",
+        "war": "en-US-AndrewMultilingualNeural",
+        "nde": "en-US-AndrewMultilingualNeural",
+        "nbl": "en-US-AndrewMultilingualNeural",
+        "pam": "en-US-AndrewMultilingualNeural",
+        "hil": "en-US-AndrewMultilingualNeural",
+        "bcl": "en-US-AndrewMultilingualNeural",
+        "min": "en-US-AndrewMultilingualNeural",
+        "ace": "en-US-AndrewMultilingualNeural",
+        "bug": "en-US-AndrewMultilingualNeural",
+        "ban": "en-US-AndrewMultilingualNeural",
+        "bjn": "en-US-AndrewMultilingualNeural",
+        "mak": "en-US-AndrewMultilingualNeural",
+        "sas": "en-US-AndrewMultilingualNeural",
+        "tet": "en-US-AndrewMultilingualNeural",
+        "cha": "en-US-AndrewMultilingualNeural",
+        "niu": "en-US-AndrewMultilingualNeural",
+        "tvl": "en-US-AndrewMultilingualNeural",
+        "gil": "en-US-AndrewMultilingualNeural",
+        "mah": "en-US-AndrewMultilingualNeural",
+        "pau": "en-US-AndrewMultilingualNeural",
+        "wls": "en-US-AndrewMultilingualNeural",
+        "rar": "en-US-AndrewMultilingualNeural",
+        "hif": "en-US-AndrewMultilingualNeural"
+      },
+      "rate": 0,
+      "pitch": 0,
+      "volume": 0
+    },
+    "floatingButton": {
+      "enabled": false,
+      "position": 0.66,
+      "side": "right",
+      "disabledFloatingButtonPatterns": [],
+      "clickAction": "translate",
+      "locked": false
+    },
+    "selectionToolbar": {
+      "enabled": true,
+      "disabledSelectionToolbarPatterns": [],
+      "opacity": 100,
+      "features": {
+        "translate": {
+          "enabled": true,
+          "providerId": "microsoft-translate-default",
+          "shortcut": ""
+        },
+        "speak": {
+          "enabled": true,
+          "shortcut": ""
+        }
+      },
+      "builtInActions": {
+        "dictionary": {
+          "enabled": true,
+          "providerId": "read-frog-free-ai",
+          "shortcut": ""
+        },
+        "sentenceAnalysis": {
+          "enabled": false,
+          "providerId": "read-frog-free-ai",
+          "shortcut": ""
+        },
+        "improveWriting": {
+          "enabled": false,
+          "providerId": "read-frog-free-ai",
+          "shortcut": ""
+        }
+      },
+      "customActions": [],
+      "order": [
+        "translate",
+        "speak",
+        "default-dictionary",
+        "default-sentence-analysis",
+        "default-improve-writing"
+      ],
+      "unpinned": [
+        "default-improve-writing",
+        "default-dictionary"
+      ],
+      "noteSuggestion": {
+        "enabled": false,
+        "actionId": "default-dictionary",
+        "providerId": "read-frog-advance-ai"
+      }
+    },
+    "sideContent": {
+      "width": 420
+    },
+    "betaExperience": {
+      "enabled": false
+    },
+    "contextMenu": {
+      "enabled": true
+    },
+    "inputTranslation": {
+      "enabled": false,
+      "providerId": "microsoft-translate-default",
+      "fromLang": "targetCode",
+      "toLang": "sourceCode",
+      "enableCycle": false,
+      "timeThreshold": 300
+    },
+    "videoSubtitles": {
+      "enabled": false,
+      "autoStart": {
+        "youtube": false,
+        "xcom": false,
+        "netflix": false
+      },
+      "toggleShortcut": "",
+      "providerId": "microsoft-translate-default",
+      "style": {
+        "displayMode": "bilingual",
+        "translationPosition": "above",
+        "main": {
+          "fontFamily": "system",
+          "fontScale": 100,
+          "color": "#FFFFFF",
+          "fontWeight": 400
+        },
+        "translation": {
+          "fontFamily": "system",
+          "fontScale": 100,
+          "color": "#FFFFFF",
+          "fontWeight": 400
+        },
+        "container": {
+          "backgroundOpacity": 75
+        },
+        "customCSS": null
+      },
+      "aiSegmentation": false,
+      "requestQueueConfig": {
+        "capacity": 20,
+        "rate": 8
+      },
+      "batchQueueConfig": {
+        "maxCharactersPerBatch": 1000,
+        "maxItemsPerBatch": 4
+      },
+      "customPromptsConfig": {
+        "promptId": "default",
+        "patterns": []
+      },
+      "position": {
+        "percent": 10,
+        "anchor": "bottom"
+      }
+    },
+    "siteControl": {
+      "mode": "blacklist",
+      "blacklistPatterns": [],
+      "whitelistPatterns": []
+    },
+    "siteRules": {
+      "userRules": [],
+      "disabledBuiltInRules": []
+    },
+    "uiLanguage": "zh-CN",
+    "translationHub": {
+      "shortcut": "",
+      "selectedProviderIds": [
+        "jalapenocloud-default",
+        "microsoft-translate-default",
+        "google-translate-default"
+      ],
+      "sourceCode": null,
+      "targetCode": null,
+      "promptId": "default"
+    },
+    "glossary": {
+      "enabled": true
+    }
+  },
+  "schemaVersion": 113,
+  "glossary": {
+    "schemaVersion": 1,
+    "glossaries": [],
+    "terms": []
+  }
+}
