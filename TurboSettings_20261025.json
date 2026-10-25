@@ -1,0 +1,177 @@
+{
+   "exportedAt": "2026-10-25T04:09:14.940Z",
+   "magic": "turbo-settings",
+   "prefs": {
+      "auto_pin_new_tab_groups": false,
+      "autofill.ai_last_version_deduped": 154,
+      "autofill.last_version_deduped": 154,
+      "background_mode.enabled": false,
+      "bookmark_bar.show_bookmark_menu": false,
+      "bookmark_bar.show_on_all_tabs": true,
+      "bookmark_bar.show_tab_groups": false,
+      "bookmarks.multi_column_menu_overflow_scroll": 0,
+      "browser.auto_hide_chrome.reveal_height_px": 16,
+      "browser.close_tab_activate": 3,
+      "browser.confirm_close_with_multiple_tabs": false,
+      "browser.enable_spellchecking": false,
+      "browser.fine_grained_page_zoom": true,
+      "browser.hide_tab_close_button": true,
+      "browser.hover_activate_tab_delay_ms": 1000,
+      "browser.new_tab_button_paste_and_navigate": false,
+      "browser.open_entered_url_disposition": 1,
+      "browser.open_home_disposition": 1,
+      "browser.scroll_to_switch_tabs": false,
+      "browser.show_bookmark_menu_button": true,
+      "browser.show_home_button": true,
+      "browser.show_titlebar_always_on_top_button": true,
+      "browser.theme.omnibox_matches_toolbar": true,
+      "browser.toolbar_layout_mode": 1,
+      "browser.video_hover_toolbar_enabled": false,
+      "custom_links.initialized": true,
+      "custom_links.list": [ {
+         "isMostVisited": true,
+         "title": "稀土掘金",
+         "url": "https://juejin.cn/"
+      }, {
+         "isMostVisited": true,
+         "title": "Markdown Resume Builder",
+         "url": "https://thenextcv.com/"
+      }, {
+         "isMostVisited": true,
+         "title": "All Companies",
+         "url": "https://remoteintech.company/companies/"
+      }, {
+         "isMostVisited": true,
+         "title": "Obsidian Web Clipper",
+         "url": "chrome-extension://eigdjhmgnaaeaonimdklocfekkaanfme/settings.html"
+      }, {
+         "isMostVisited": true,
+         "title": "节日福利商城",
+         "url": "https://cms.guanaitong.com/product/8738/24996.html"
+      }, {
+         "isMostVisited": true,
+         "title": "临时邮箱",
+         "url": "https://www.mailticking.com/zh"
+      }, {
+         "isMostVisited": true,
+         "title": "我的首页_猎聘",
+         "url": "https://c.liepin.com/?time=1789361167877"
+      }, {
+         "isMostVisited": true,
+         "title": "OpenUserJS",
+         "url": "https://openuserjs.org/?q=mail.163.com"
+      }, {
+         "isMostVisited": true,
+         "title": "登录",
+         "url": "https://tbrowser.cn/zh/account/login.html"
+      } ],
+      "default_search_provider_data.template_url_data": {
+         "alternate_urls": [  ],
+         "contextual_search_url": "",
+         "created_from_play_api": false,
+         "date_created": "0",
+         "doodle_url": "",
+         "enforced_by_policy": false,
+         "favicon_url": "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.svg",
+         "featured_by_policy": false,
+         "id": "3",
+         "image_search_branding_label": "",
+         "image_translate_source_language_param_key": "",
+         "image_translate_target_language_param_key": "",
+         "image_translate_url": "",
+         "image_url": "https://www.bing.com/images/detail/search?iss=sbiupload&FORM=CHROMI#enterInsights",
+         "image_url_post_params": "imageBin={google:imageThumbnailBase64}",
+         "input_encodings": [ "UTF-8" ],
+         "is_active": 0,
+         "keyword": "bing.com",
+         "last_modified": "0",
+         "last_visited": "13437372851369535",
+         "logo_url": "https://cdn.sapphire.microsoftapp.net/icons/bing_144.png",
+         "new_tab_url": "https://www.bing.com/chrome/newtab",
+         "originating_url": "",
+         "policy_origin": 0,
+         "preconnect_to_search_url": true,
+         "prefetch_likely_navigations": false,
+         "prepopulate_id": 3,
+         "safe_for_autoreplace": true,
+         "search_intent_params": [  ],
+         "search_url_post_params": "",
+         "send_x_geo_header": false,
+         "short_name": "Microsoft Bing",
+         "starter_pack_id": 0,
+         "suggestions_url": "https://www.bing.com/osjson.aspx?query={searchTerms}&language={language}",
+         "suggestions_url_post_params": "",
+         "synced_guid": "485bf7d3-0215-45af-87dc-538868000003",
+         "url": "https://www.bing.com/search?q={searchTerms}",
+         "usage_count": 0
+      },
+      "download.alt_click_save_image_enabled": false,
+      "extensions.commands": {
+         "windows:Alt+Shift+D": {
+            "command_name": "toggle",
+            "extension": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "global": false
+         },
+         "windows:Alt+Shift+H": {
+            "command_name": "toggle_highlighter",
+            "extension": "eigdjhmgnaaeaonimdklocfekkaanfme",
+            "global": false
+         },
+         "windows:Alt+Shift+O": {
+            "command_name": "quick_clip",
+            "extension": "eigdjhmgnaaeaonimdklocfekkaanfme",
+            "global": false
+         },
+         "windows:Ctrl+Shift+E": {
+            "command_name": "activate-selection",
+            "extension": "ihapiifnacjabeegnekpkhgoeogciace",
+            "global": false
+         },
+         "windows:Ctrl+Shift+U": {
+            "command_name": "save-all-tabs",
+            "extension": "mpiodijhokgodhhofbcjdecpffjipkle",
+            "global": false
+         },
+         "windows:Ctrl+Shift+Y": {
+            "command_name": "save-selected-tabs",
+            "extension": "mpiodijhokgodhhofbcjdecpffjipkle",
+            "global": false
+         }
+      },
+      "extensions.pinned_extensions": [ "jinjaccalgkegednnccohejagnlnfdag", "eigdjhmgnaaeaonimdklocfekkaanfme", "eimadpbcbfnmbkopoojfekhnkhdbieeh", "pgbjgankbjdhmhjdcalnmgdpkadlgbim", "blckodkdfiedapfpjiobdkedmocgihco", "odfafepnkmbhccpbejgmiehpchacaeak", "ihapiifnacjabeegnekpkhgoeogciace", "dejmgkhjgibolmfhfpgacfhpoindohmg" ],
+      "extensions.ui.developer_mode": true,
+      "intl.selected_languages": "zh-CN,zh",
+      "ntp.custom_links_visible": false,
+      "ntp.logo_visible": false,
+      "ntp.search_engine_guid": "485bf7d3-0215-45af-87dc-538868000003",
+      "ntp.shortcust_visible": false,
+      "ntp.shortcuts_type_tabs_visible": false,
+      "omnibox.prevent_url_elisions": true,
+      "omnibox.show_pwa_install_icon": false,
+      "profile.avatar_index": 26,
+      "profile.name": "您的 Turbo",
+      "safebrowsing.enabled": true,
+      "session.restore_on_startup": 1,
+      "settings.a11y.read_anything.languages_enabled": [ "zh-cn" ],
+      "toolbar.pinned_actions": [ "kActionShowChromeLabs", "kActionShowDownloads", "kActionShowTranslate", "kActionQrCodeGenerator", "kActionSidePanelShowBookmarks" ],
+      "toolbar.pinned_cast_migration_complete": true,
+      "toolbar.pinned_chrome_labs_migration_complete": true,
+      "translate_accepted_count": {
+         "en": 12,
+         "und": 2
+      },
+      "translate_denied_count_for_language": {
+         "en": 0,
+         "und": 0
+      },
+      "translate_recent_target": "zh-CN",
+      "translate_recent_targets": [ "zh-CN" ],
+      "turbo.boss_key.enabled": false,
+      "turbo.mouse_gesture.enabled": false,
+      "turbo.mouse_gesture.link_drag_open_in_background_tab": false,
+      "turbo.update.auto_update_enabled": false,
+      "vertical_tabs.show_toggle_button": false,
+      "webkit.webprefs.force_dark_mode_enabled": true
+   },
+   "version": 1
+}
